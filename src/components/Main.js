@@ -1,8 +1,15 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import volunteerPic from '../images/volunteer.jpg'
+import educationPic from '../images/edu.jpg'
+import workPic from '../images/work.jpg'
+import sportsPic from '../images/sports.jpg'
+import photographyPic from '../images/photography.jpg'
+import analyticsPic from '../images/analytics.jpg'
+import frameworkPic from '../images/framework.jpg'
+import programmingPic from '../images/programming.jpg'
+import languagePic from '../images/language.jpg'
 
 class Main extends React.Component {
   render() {
@@ -25,7 +32,7 @@ class Main extends React.Component {
           id="intro"
           className={`${this.props.article === 'intro' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
-          }`}
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Intro</h2>
@@ -33,77 +40,209 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            An intern at <a href="http://invokeisdata.com">INVOKE Malaysia</a> from February 2020 to July 2020 to fulfill the requirements to complete my Bachelor of Computer Science (Hons.) at <a href="http://uitm.edu.my">Universiti Teknologi MARA</a>. Will be graduating at the end of my internship period.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            I don't like labels, but if I were to put one on myself; it'd be a lifelong (knowledge) seeker.
+          </p>
+          <p>
+            I don’t like associating myself with the term programmer. I don’t just program, I solve problems; hence, a problem solver. Well-versed in a few programming languages and frameworks, notably ReactJS, NodeJS, ExpressJS, GatsbyJS, React Native, Python, Flask and data visualization tools such as Tableau, Flourish and Google Data Studio.
+          </p>
+          <p>
+            Currently, I mostly work on front-end web development with some mobile app development in between. As a data enthusiast, I run some data analytics on my free time. Also a volunteer at <a href="http://ydlmalaysia.com">Young Digital Leaders Malaysia</a>, where I developed and maintain the Wordpress site, and try to chip in on a bit of analytics every now and then.
           </p>
           {close}
         </article>
 
         <article
-          id="work"
-          className={`${this.props.article === 'work' ? 'active' : ''} ${
+          id="profile"
+          className={`${this.props.article === 'profile' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
-          }`}
+            }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Profile</h2>
+          <div>
+            <h3><span className="icon fa-briefcase"></span> Work Experience</h3>
+          </div>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={workPic} alt="" />
           </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
+          <ul>
+            <li>
+              <h3>Web and Mobile Developer (Intern)</h3>
+              <h4>INVOKE Solutions Sdn Bhd</h4>
+              <h5>February 2020 - Present</h5>
+              <h6>- Front-end web and mobile development (ReactJS and React Native)</h6>
+              <h6>- Back-end web development (NodeJS and ExpressJS)</h6>
+              <h6>- Project and team management (Jira, HubStaff, Trello, Slack)</h6>
+              <h6>- DevOps and version control (Git)</h6>
+            </li>
+          </ul>
+          <div>
+            <h3><span className="icon fa-university"></span> Education</h3>
+          </div>
+          <span className="image main">
+            <img src={educationPic} alt="" />
+          </span>
+          <ul>
+            <li>
+              <h3>Bachelor of Computer Science (Hons.)</h3>
+              <h4>Universiti Teknologi MARA (UiTM)</h4>
+              <h5>March 2017 - July 2020</h5>
+              <h6>- Final year project title: Visualizing the Reputation of Malaysian Communication Service Providers Through Twitter Sentiment Analysis Using Naive Bayes</h6>
+              <h6>- CGPA: 3.34</h6>
+            </li>
+            <li>
+              <h3>Bachelor Engineering (Hons.) (Electronic Engineering)</h3>
+              <h4>Universiti Sains Malaysia (USM)</h4>
+              <h5>August 2015 - February 2017</h5>
+            </li>
+            <li>
+              <h3>Foundation in Engineering</h3>
+              <h4>Universiti Teknologi MARA (UiTM)</h4>
+              <h5>June 2014 - April 2015</h5>
+              <h6>- CGPA: 3.78</h6>
+              <h6>- MUET: Band 5</h6>
+            </li>
+            <li>
+              <h3>Sijil Pelajaran Malaysia (SPM)</h3>
+              <h4>Sekolah Menengah Kebangsaan Jitra</h4>
+              <h5>January 2009 - December 2013</h5>
+              <h6>- Grade: 5A+ 4A</h6>
+            </li>
+          </ul>
+          <div>
+            <h3><span className="icon fa-user"></span> Volunteer Experience</h3>
+          </div>
+          <span className="image main">
+            <img src={volunteerPic} alt="" />
+          </span>
+          <ul>
+            <li>
+              <h3>Young Digital Leaders Malaysia</h3>
+              <h4>March 2020 - Present</h4>
+              <h6>- Web development (Wordpress)</h6>
+            </li>
+            <li>
+              <h3>Petrosains</h3>
+              <h4>December 2013 - April 2015</h4>
+              <h6>- Dinotrek 2</h6>
+              <h6>- Petronas StreetSmart</h6>
+            </li>
+          </ul>
+          <button>
+            <a href="https://drive.google.com/uc?export=download&id=16tDLWwd2C9zgFV4soX_W1S273GK78fvA">Download resume</a>
+          </button>
           {close}
         </article>
 
         <article
-          id="about"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
+          id="portfolio"
+          className={`${this.props.article === 'skills' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
-          }`}
+            }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">Skills</h2>
+          <h3>Language</h3>
+          <ul>
+            <li>
+              <h4>Malay (Native)</h4>
+            </li>
+            <li>
+              <h4>English (Fluent)</h4>
+            </li>
+            <li>
+              <h4>Mandarin (Elementary)</h4>
+            </li>
+          </ul>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={frameworkPic} alt="" />
           </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
+          <h3>Programming Language</h3>
+          <ul>
+          <li>
+              <h4>C, C++, C#</h4>
+            </li>
+            <li>
+              <h4>Java, JavaScript</h4>
+            </li>
+            <li>
+              <h4>Python</h4>
+            </li>
+            <li>
+              <h4>HTML, CSS</h4>
+            </li>
+          </ul>
+          <h3>Development Framework</h3>
+          <ul>
+            <li>
+              <h4>Flask</h4>
+            </li>
+            <li>
+              <h4>ReactJS, React Native, GatsbyJS</h4>
+            </li>
+            <li>
+              <h4>NodeJS, ExpressJS</h4>
+            </li>
+          </ul>
+          <h3>Data Analytics</h3>
+          <ul>
+            <li>
+              <h4>Natural Language Processing (Sentiment Analysis)</h4>
+            </li>
+            <li>
+              <h4>Data Visualization (Google Data Studio, Tableau, Flourish, Matplotlib)</h4>
+            </li>
+            <li>
+              <h4>Machine Learning</h4>
+            </li>
+          </ul>
+          <span className="image main">
+            <img src={photographyPic} alt="" />
+          </span>
+          <h3>Creative</h3>
+          <ul>
+            <li>
+              <h4>Photo Editing (Adobe Photoshop, Adobe Illusrator)</h4>
+            </li>
+            <li>
+              <h4>Photography (Adobe Lightroom)</h4>
+            </li>
+          </ul>
+          <span className="image main">
+            <img src={sportsPic} alt="" />
+          </span>
+          <h3>Sports</h3>
+          <ul>
+            <li>
+              <h4>Running</h4>
+            </li>
+            <li>
+              <h4>Football</h4>
+            </li>
+            <li>
+              <h4>Ultimate Frisbee</h4>
+            </li>
+          </ul>
+          {close}
+        </article>
+
+        <article
+          id="covid-19"
+          className={`${this.props.article === 'covid-19' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+            }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Covid-19</h2>
+          <span className="image main">
+            <iframe width="100%" height="600" src="https://datastudio.google.com/embed/reporting/1Wh4QLAQuUqCJVLByhhIQgW_s5-g8_eLv/page/WmKJB" allowfullscreen></iframe>
+          </span>
+          <span className="image main">
+            <iframe width="100%" height="800" src='https://flo.uri.sh/visualisation/2343954/embed'></iframe>
+          </span>
           {close}
         </article>
 
@@ -111,11 +250,11 @@ class Main extends React.Component {
           id="contact"
           className={`${this.props.article === 'contact' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
-          }`}
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          <form method="post" action="https://formspree.io/aidilsafwan.aas@gmail.com">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -137,31 +276,34 @@ class Main extends React.Component {
               </li>
             </ul>
           </form>
-          <ul className="icons">
+          <h3>
+            Or email me at <a href="mailto:aidilsafwan.aas@gmail.com">aidilsafwan.aas@gmail.com</a>.
+          </h3>
+          <ul className="icons" style={{ marginTop: "5vh" }}>
             <li>
               <a
-                href="https://twitter.com/HuntaroSan"
+                href="https://www.twitter.com/aidilsfwn"
                 className="icon fa-twitter"
               >
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
+              <a href="https://www.facebook.com/aidilsfwn" className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
+              <a href="https://www.instagram.com/aidilsfwnn" className="icon fa-instagram">
                 <span className="label">Instagram</span>
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
+                href="https://www.linkedin.com/in/aidilsafwan"
+                className="icon fa-linkedin"
               >
-                <span className="label">GitHub</span>
+                <span className="label">LinkedIn</span>
               </a>
             </li>
           </ul>

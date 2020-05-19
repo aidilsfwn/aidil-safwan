@@ -1,25 +1,69 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 
+import AidilAvatar from '../images/avatar-aidilsafwancom.png';
+
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-diamond"></span>
+      <span><img src={AidilAvatar} width="100%" /></span>
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>Aidil Safwan</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
-          <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+        Web and Mobile Developer || Data Science Enthusiast
         </p>
+        <ul className="icons" style={{ marginTop: "5vh" }}>
+            <li>
+              <a
+                href="https://www.twitter.com/aidilsfwn"
+                className="icon fa-twitter"
+              >
+                <span className="label">Twitter</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/aidilsfwn" className="icon fa-facebook">
+                <span className="label">Facebook</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/aidilsfwnn" className="icon fa-instagram">
+                <span className="label">Instagram</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/aidilsafwan"
+                className="icon fa-linkedin"
+              >
+                <span className="label">LinkedIn</span>
+              </a>
+            </li>
+          </ul>
       </div>
     </div>
     <nav>
       <ul>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('skills')
+            }}
+          >
+            Skills
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('profile')
+            }}
+          >
+            Profile
+          </button>
+        </li>
         <li>
           <button
             onClick={() => {
@@ -32,28 +76,19 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('work')
-            }}
-          >
-            Work
-          </button>
-        </li>
-        <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('about')
-            }}
-          >
-            About
-          </button>
-        </li>
-        <li>
-          <button
-            onClick={() => {
               props.onOpenArticle('contact')
             }}
           >
             Contact
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('covid-19')
+            }}
+          >
+            Covid-19
           </button>
         </li>
       </ul>
