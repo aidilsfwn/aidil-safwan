@@ -131,7 +131,7 @@ class Main extends React.Component {
               <h6>- Petronas StreetSmart</h6>
             </li>
           </ul>
-          <button>
+          <button style={{ marginBottom: "5vh" }}>
             <a href="https://drive.google.com/uc?export=download&id=16tDLWwd2C9zgFV4soX_W1S273GK78fvA">Download resume</a>
           </button>
           {close}
