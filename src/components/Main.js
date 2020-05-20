@@ -132,7 +132,7 @@ class Main extends React.Component {
             </li>
           </ul>
           <button style={{ marginBottom: "5vh" }}>
-            <a href="https://drive.google.com/uc?export=download&id=16tDLWwd2C9zgFV4soX_W1S273GK78fvA">Download resume</a>
+            <a href="https://drive.google.com/uc?export=download&id=1VkOWPbcYRUUu0JFpHoqPNPO6t4C8GLih">Download resume</a>
           </button>
           {close}
         </article>
