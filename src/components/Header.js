@@ -12,36 +12,36 @@ const Header = props => (
       <div className="inner">
         <h1>Aidil Safwan</h1>
         <p>
-        Web and Mobile Developer || Data Science Enthusiast
+          Web and Mobile Developer || Data Science Enthusiast
         </p>
         <ul className="icons" style={{ marginTop: "5vh" }}>
-            <li>
-              <a
-                href="https://www.twitter.com/aidilsfwn"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.facebook.com/aidilsfwn" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/aidilsfwnn" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/aidilsafwan"
-                className="icon fa-linkedin"
-              >
-                <span className="label">LinkedIn</span>
-              </a>
-            </li>
-          </ul>
+          <li>
+            <a
+              href="https://www.twitter.com/aidilsfwn"
+              className="icon fa-twitter"
+            >
+              <span className="label">Twitter</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/aidilsfwn" className="icon fa-facebook">
+              <span className="label">Facebook</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/aidilsfwnn" className="icon fa-instagram">
+              <span className="label">Instagram</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/aidilsafwan"
+              className="icon fa-linkedin"
+            >
+              <span className="label">LinkedIn</span>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
     <nav>
@@ -81,6 +81,13 @@ const Header = props => (
           >
             Contact
           </button>
+        </li>
+        <li>
+          <a href="http://aidilsfwn.com">
+            <button>
+              Blog
+          </button>
+          </a>
         </li>
         <li>
           <button
