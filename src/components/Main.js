@@ -74,7 +74,9 @@ class Main extends React.Component {
               <h4>INVOKE Solutions Sdn Bhd</h4>
               <h5>February 2020 - Present</h5>
               <h6>- Front-end web and mobile development (ReactJS and React Native)</h6>
-              <h6>- Back-end web development (NodeJS and ExpressJS)</h6>
+              <h6>- Back-end web development (NodeJS, ExpressJS and Serverless)</h6>
+              <h6>- CMS (WordPress)</h6>
+              <h6>- Cloud (AWS)</h6>
               <h6>- Project and team management (Jira, HubStaff, Trello, Slack)</h6>
               <h6>- DevOps and version control (Git)</h6>
             </li>
