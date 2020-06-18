@@ -70,9 +70,16 @@ class Main extends React.Component {
           </span>
           <ul>
             <li>
+              <h3>Web and Mobile Developer</h3>
+              <h4>INVOKE Solutions Sdn Bhd</h4>
+              <h5>July 2020 - Present</h5>
+            </li>
+          </ul>
+          <ul>
+            <li>
               <h3>Web and Mobile Developer (Intern)</h3>
               <h4>INVOKE Solutions Sdn Bhd</h4>
-              <h5>February 2020 - Present</h5>
+              <h5>February 2020 - July 2020</h5>
               <h6>- Front-end web and mobile development (ReactJS and React Native)</h6>
               <h6>- Back-end web development (NodeJS, ExpressJS and Serverless)</h6>
               <h6>- CMS (WordPress)</h6>
