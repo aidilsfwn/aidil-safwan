@@ -7,6 +7,7 @@ import workPic from '../images/work.jpg'
 import sportsPic from '../images/sports.jpg'
 import photographyPic from '../images/photography.jpg'
 import analyticsPic from '../images/analytics.jpg'
+import aidilInvokePic from '../images/aidil-invoke-web.jpg'
 import frameworkPic from '../images/framework.jpg'
 import programmingPic from '../images/programming.jpg'
 import languagePic from '../images/language.jpg'
@@ -45,8 +46,11 @@ class Main extends React.Component {
           <p>
             Currently a software engineer at <a href="http://invokeisdata.com">INVOKE</a> working on web and mobile development for both INVOKE and clients' products using frameworks and tools like ReactJS, React Native, NodeJS, ExpressJS, WordPress and Serverless. Started at INVOKE as an intern for 6 months in my final semester of my Bachelor of Computer Science degree, was directly and hugely involved in a few projects, notably INVOKE's revamped website and <a href="http://n9.digital">n9.digital</a> and was offered a full-time position upon the completion of my internship.
           </p>
+          <span className="image main">
+            <img src={aidilInvokePic} alt="" />
+          </span>
           <p>
-            Was a science stream student in high school, graduating high school with 5A+ and 4A for SPM. I then finished my foundation study with 3.78 CGPA at <a href="http://uitm.edu.my">Universiti Teknologi MARA (UiTM)</a> before enrolling myself into engineering school for a Bachelor in Electronic Engineering degree at <a href="http://www.usm.my">Universiti Sains Malaysia (USM)</a>. My stint in engineering school was cut short as I fell in love with programming and decided to call it quit and get a Computer Science degree instead. I've never looked back since.
+            Was a science stream student in high school, graduating high school with 5A+ and 4A for SPM. I then did my foundation study at <a href="http://uitm.edu.my">Universiti Teknologi MARA (UiTM)</a> before enrolling myself into engineering school for a Bachelor in Electronic Engineering degree at <a href="http://www.usm.my">Universiti Sains Malaysia (USM)</a>. My stint in engineering school was cut short as I fell in love with programming and decided to call it quit and get a Computer Science degree instead. I've never looked back since.
           </p>
           <p>
             In my final year, I worked on a project titled Visualizing the Reputation of Malaysian Communication Service Providers Through Twitter Sentiment Analysis Using Naive Bayes where I developed a bilingual sentiment classification model using Python and SciPy, ran the model on tweets collected from Twitter and visualized the result on a dashboard created using Python's Flask.
