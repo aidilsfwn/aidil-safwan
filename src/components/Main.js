@@ -40,16 +40,19 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            An intern at <a href="http://invokeisdata.com">INVOKE Malaysia</a> from February 2020 to July 2020 to fulfill the requirements to complete my Bachelor of Computer Science (Hons.) at <a href="http://uitm.edu.my">Universiti Teknologi MARA</a>. Will be graduating at the end of my internship period.
+            I don't like labels, but if I were to put one on myself; it'd be a lifelong (knowledge) seeker, and I really don’t fancy associating myself with the term programmer because to me personally, I don’t just program, I solve problems; hence, a problem solver.
           </p>
           <p>
-            I don't like labels, but if I were to put one on myself; it'd be a lifelong (knowledge) seeker.
+            Currently a software engineer at <a href="http://invokeisdata.com">INVOKE</a> working on web and mobile development for both INVOKE and clients' products using frameworks and tools like ReactJS, React Native, NodeJS, ExpressJS, WordPress and Serverless. Started at INVOKE as an intern for 6 months in my final semester of my Bachelor of Computer Science degree, was directly and hugely involved in a few projects, notably INVOKE's revamped website and <a href="http://n9.digital">n9.digital</a> and was offered a full-time position upon the completion of my internship.
           </p>
           <p>
-            I don’t like associating myself with the term programmer. I don’t just program, I solve problems; hence, a problem solver. Well-versed in a few programming languages and frameworks, notably ReactJS, NodeJS, ExpressJS, GatsbyJS, React Native, Python, Flask and data visualization tools such as Tableau, Flourish and Google Data Studio.
+            Was a science stream student in high school, graduating high school with 5A+ and 4A for SPM. I then finished my foundation study with 3.78 CGPA at <a href="http://uitm.edu.my">Universiti Teknologi MARA (UiTM)</a> before enrolling myself into engineering school for a Bachelor in Electronic Engineering degree at <a href="http://www.usm.my">Universiti Sains Malaysia (USM)</a>. My stint in engineering school was cut short as I fell in love with programming and decided to call it quit and get a Computer Science degree instead. I've never looked back since.
           </p>
           <p>
-            Currently, I mostly work on front-end web development with some mobile app development in between. As a data enthusiast, I run some data analytics on my free time. Also a volunteer at <a href="http://ydlmalaysia.com">Young Digital Leaders Malaysia</a>, where I developed and maintain the Wordpress site, and try to chip in on a bit of analytics every now and then.
+            In my final year, I worked on a project titled Visualizing the Reputation of Malaysian Communication Service Providers Through Twitter Sentiment Analysis Using Naive Bayes where I developed a bilingual sentiment classification model using Python and SciPy, ran the model on tweets collected from Twitter and visualized the result on a dashboard created using Python's Flask.
+          </p>
+          <p>
+            Have worked on a few mini projects in my own free time, such as my <a href="http://aidilsafwan.com">personal website</a> built using GatsbyJS and my <a href="https://datastudio.google.com/u/3/reporting/1Wh4QLAQuUqCJVLByhhIQgW_s5-g8_eLv/page/WmKJB">Covid-19 Dashboard</a> using Google Data Studio and Flourish. Also a volunteer at <a href="http://ydlmalaysia.com">Young Digital Leaders Malaysia</a> working on web development using WordPress. Volunteering experience includes being a volunteer at <a href="http://petrosains.com.my">Petrosains</a> (Dinotrek 2 and Petronas Street Smart) as Assistant Science Communicator.
           </p>
           {close}
         </article>
@@ -100,7 +103,7 @@ class Main extends React.Component {
               <h4>Universiti Teknologi MARA (UiTM)</h4>
               <h5>March 2017 - July 2020</h5>
               <h6>- Final year project title: Visualizing the Reputation of Malaysian Communication Service Providers Through Twitter Sentiment Analysis Using Naive Bayes</h6>
-              <h6>- CGPA: 3.34</h6>
+              <h6>- CGPA: 3.37</h6>
             </li>
             <li>
               <h3>Bachelor Engineering (Hons.) (Electronic Engineering)</h3>
@@ -171,7 +174,7 @@ class Main extends React.Component {
           </span>
           <h3>Programming Language</h3>
           <ul>
-          <li>
+            <li>
               <h4>C, C++, C#</h4>
             </li>
             <li>
