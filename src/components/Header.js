@@ -1,20 +1,23 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 
-import AidilAvatar from '../images/avatar-aidilsafwancom.png';
+import AidilAvatar from '../images/avatar-aidilsafwancom.png'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span><img src={AidilAvatar} width="100%" /></span>
+      <span>
+        <img src={AidilAvatar} width="100%" />
+      </span>
     </div>
     <div className="content">
       <div className="inner">
         <h1>Aidil Safwan</h1>
         <p>
-          Web and Mobile Developer || Data Science Enthusiast
+          Analyst Programmer @ Public Bank | Web and Mobile Developer | ReactJS
+          & React Native | Data Science Enthusiast
         </p>
-        <ul className="icons" style={{ marginTop: "5vh" }}>
+        <ul className="icons" style={{ marginTop: '5vh' }}>
           <li>
             <a
               href="https://www.twitter.com/aidilsfwn"
@@ -24,12 +27,18 @@ const Header = props => (
             </a>
           </li>
           <li>
-            <a href="https://www.facebook.com/aidilsfwn" className="icon fa-facebook">
+            <a
+              href="https://www.facebook.com/aidilsfwn"
+              className="icon fa-facebook"
+            >
               <span className="label">Facebook</span>
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/aidilsfwnn" className="icon fa-instagram">
+            <a
+              href="https://www.instagram.com/aidilsfwnn"
+              className="icon fa-instagram"
+            >
               <span className="label">Instagram</span>
             </a>
           </li>
@@ -84,9 +93,7 @@ const Header = props => (
         </li>
         <li>
           <a href="http://aidilsfwn.com">
-            <button>
-              Blog
-          </button>
+            <button>Blog</button>
           </a>
         </li>
         <li>
