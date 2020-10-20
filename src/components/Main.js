@@ -54,7 +54,7 @@ class Main extends React.Component {
             just program, I solve problems; hence, a problem solver.{' '}
           </p>{' '}
           <p>
-            Currently an Analyst Programmer at{' '}
+            Currently a Trainee Analyst Programmer at{' '}
             <a href="https://www.publicbankgroup.com">Public Bank</a>.
           </p>
           <p>
@@ -128,8 +128,8 @@ class Main extends React.Component {
           </span>{' '}
           <ul>
             <li>
-              <h3> Analyst Programmer </h3> <h4> Public Bank Berhad </h4>{' '}
-              <h5> October 2020 - Present </h5>{' '}
+              <h3> Trainee Analyst Programmer </h3>{' '}
+              <h4> Public Bank Berhad </h4> <h5> October 2020 - Present </h5>{' '}
             </li>{' '}
           </ul>{' '}
           <ul>
