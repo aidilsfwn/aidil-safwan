@@ -14,8 +14,8 @@ const Header = props => (
       <div className="inner">
         <h1>Aidil Safwan</h1>
         <p>
-          Analyst Programmer @ Public Bank | Web and Mobile Developer | ReactJS
-          & React Native | Data Science Enthusiast
+          Trainee Analyst Programmer @ Public Bank | Web and Mobile Developer |
+          ReactJS & React Native | Data Science Enthusiast
         </p>
         <ul className="icons" style={{ marginTop: '5vh' }}>
           <li>
