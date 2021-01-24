@@ -55,7 +55,9 @@ class Main extends React.Component {
           </p>{' '}
           <p>
             Currently a Trainee Analyst Programmer at{' '}
-            <a href="https://www.publicbankgroup.com">Public Bank</a>.
+            <a href="https://www.publicbankgroup.com">Public Bank</a>. Have been
+            involved in UI/UX design process as well as front-end development
+            for mobile apps using React Native and Figma.
           </p>
           <p>
             Previously a Software Engineer at{' '}
@@ -130,6 +132,9 @@ class Main extends React.Component {
             <li>
               <h3> Trainee Analyst Programmer </h3>{' '}
               <h4> Public Bank Berhad </h4> <h5> October 2020 - Present </h5>{' '}
+              <h6>Fintech Team</h6>
+              <h6>- Mobile Development (React Native and Expo)</h6>
+              <h6>- UI/UX Design (Figma, Lottie and Photoshop)</h6>
             </li>{' '}
           </ul>{' '}
           <ul>
