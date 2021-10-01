@@ -14,8 +14,8 @@ const Header = props => (
       <div className="inner">
         <h1>Aidil Safwan</h1>
         <p>
-          Trainee Analyst Programmer @ Public Bank | Web and Mobile Developer |
-          UI/UX Designer | ReactJS & React Native | Data Science Enthusiast
+          Analyst Programmer @ Public Bank | Full-Stack JavaScript Web and
+          Mobile Developer | UI/UX Designer | NodeJS, ReactJS & React Native
         </p>
         <ul className="icons" style={{ marginTop: '5vh' }}>
           <li>
@@ -91,7 +91,7 @@ const Header = props => (
             Contact
           </button>
         </li>
-        <li>
+        {/* <li>
           <a href="http://aidilsfwn.com">
             <button>Blog</button>
           </a>
@@ -104,7 +104,7 @@ const Header = props => (
           >
             Covid-19
           </button>
-        </li>
+        </li> */}
       </ul>
     </nav>
   </header>

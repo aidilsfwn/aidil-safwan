@@ -54,7 +54,7 @@ class Main extends React.Component {
             just program, I solve problems; hence, a problem solver.{' '}
           </p>{' '}
           <p>
-            Currently a Trainee Analyst Programmer at{' '}
+            Currently an Analyst Programmer at{' '}
             <a href="https://www.publicbankgroup.com">Public Bank</a>. Have been
             involved in UI/UX design process as well as front-end development
             for mobile apps using React Native and Figma.
@@ -130,9 +130,15 @@ class Main extends React.Component {
           </span>{' '}
           <ul>
             <li>
+              <h3> Analyst Programmer </h3> <h4> Public Bank Berhad </h4>{' '}
+              <h5> October 2021 - Present </h5>{' '}
+            </li>{' '}
+          </ul>{' '}
+          <ul>
+            <li>
               <h3> Trainee Analyst Programmer </h3>{' '}
-              <h4> Public Bank Berhad </h4> <h5> October 2020 - Present </h5>{' '}
-              <h6>Fintech Team</h6>
+              <h4> Public Bank Berhad </h4>{' '}
+              <h5> October 2020 - September 2021 </h5> <h6>Fintech Team</h6>
               <h6>- Mobile Development (React Native and Expo)</h6>
               <h6>- UI/UX Design (Figma, Lottie and Photoshop)</h6>
             </li>{' '}
@@ -225,7 +231,7 @@ class Main extends React.Component {
               <h6> - Dinotrek 2 </h6> <h6> - Petronas StreetSmart </h6>{' '}
             </li>{' '}
           </ul>{' '}
-          <button
+          {/* <button
             style={{
               marginBottom: '5vh',
             }}
@@ -234,7 +240,7 @@ class Main extends React.Component {
               {' '}
               Download resume{' '}
             </a>{' '}
-          </button>{' '}
+          </button>{' '} */}
           {close}{' '}
         </article>
         <article
@@ -254,9 +260,9 @@ class Main extends React.Component {
             <li>
               <h4> English (Fluent) </h4>{' '}
             </li>{' '}
-            <li>
+            {/* <li>
               <h4> Mandarin (Elementary) </h4>{' '}
-            </li>{' '}
+            </li>{' '} */}
           </ul>{' '}
           <span className="image main">
             <img src={frameworkPic} alt="" />
@@ -282,7 +288,7 @@ class Main extends React.Component {
               <h4> Flask </h4>{' '}
             </li>{' '}
             <li>
-              <h4> ReactJS, React Native, GatsbyJS </h4>{' '}
+              <h4> ReactJS, React Native </h4>{' '}
             </li>{' '}
             <li>
               <h4> NodeJS, ExpressJS </h4>{' '}
@@ -411,7 +417,7 @@ class Main extends React.Component {
             </a>
             .{' '}
           </h3>{' '}
-          <ul
+          {/* <ul
             className="icons"
             style={{
               marginTop: '5vh',
@@ -449,7 +455,7 @@ class Main extends React.Component {
                 <span className="label"> LinkedIn </span>{' '}
               </a>{' '}
             </li>{' '}
-          </ul>{' '}
+          </ul>{' '} */}
           {close}{' '}
         </article>{' '}
       </div>
