@@ -2,8 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Aidil Safwan',
     author: 'Aidil Safwan',
-    description:
-      'Analyst Programmer @ Public Bank | Full-Stack JavaScript Web and Mobile Developer | UI/UX Designer | NodeJS, ReactJS & React Native',
+    description: 'React Native Developer @ Aleph-Labs',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

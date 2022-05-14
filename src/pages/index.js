@@ -91,8 +91,7 @@ class IndexPage extends React.Component {
         <Helmet defaultTitle="Aidil Safwan">
           <meta
             name="description"
-            content="Analyst Programmer @ Public Bank | Full-Stack JavaScript Web and
-          Mobile Developer | UI/UX Designer | NodeJS, ReactJS & React Native"
+            content="React Native Developer @ Aleph-Labs"
           />
         </Helmet>
         <div

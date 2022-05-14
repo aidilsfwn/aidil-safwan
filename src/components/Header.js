@@ -13,14 +13,11 @@ const Header = props => (
     <div className="content">
       <div className="inner">
         <h1>Aidil Safwan</h1>
-        <p>
-          Analyst Programmer @ Public Bank | Full-Stack JavaScript Web and
-          Mobile Developer | UI/UX Designer | NodeJS, ReactJS & React Native
-        </p>
+        <p>React Native Developer @ Aleph-Labs</p>
         <ul className="icons" style={{ marginTop: '5vh' }}>
           <li>
             <a
-              href="https://www.twitter.com/aidilsfwn"
+              href="https://www.twitter.com/jhendilson"
               className="icon fa-twitter"
             >
               <span className="label">Twitter</span>
@@ -36,7 +33,7 @@ const Header = props => (
           </li>
           <li>
             <a
-              href="https://www.instagram.com/aidilsfwnn"
+              href="https://www.instagram.com/jhendilson"
               className="icon fa-instagram"
             >
               <span className="label">Instagram</span>

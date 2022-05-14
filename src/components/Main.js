@@ -54,8 +54,12 @@ class Main extends React.Component {
             just program, I solve problems; hence, a problem solver.{' '}
           </p>{' '}
           <p>
-            Currently an Analyst Programmer at{' '}
-            <a href="https://www.publicbankgroup.com">Public Bank</a>. Have been
+            Currently a React Native Developer at{' '}
+            <a href="https://aleph-labs.com">Aleph-Labs</a>.
+          </p>
+          <p>
+            Recently left my role as an Analyst Programmer at{' '}
+            <a href="https://www.publicbankgroup.com">Public Bank</a>. Was
             involved in UI/UX design process as well as front-end development
             for mobile apps using React Native and Figma.
           </p>
@@ -130,8 +134,14 @@ class Main extends React.Component {
           </span>{' '}
           <ul>
             <li>
+              <h3> React Native Developer </h3> <h4> Aleph-Labs </h4>{' '}
+              <h5> May 2022 - Present </h5>{' '}
+            </li>{' '}
+          </ul>
+          <ul>
+            <li>
               <h3> Analyst Programmer </h3> <h4> Public Bank Berhad </h4>{' '}
-              <h5> October 2021 - Present </h5>{' '}
+              <h5> October 2021 - May 2022 </h5>{' '}
             </li>{' '}
           </ul>{' '}
           <ul>
@@ -417,45 +427,6 @@ class Main extends React.Component {
             </a>
             .{' '}
           </h3>{' '}
-          {/* <ul
-            className="icons"
-            style={{
-              marginTop: '5vh',
-            }}
-          >
-            <li>
-              <a
-                href="https://www.twitter.com/aidilsfwn"
-                className="icon fa-twitter"
-              >
-                <span className="label"> Twitter </span>{' '}
-              </a>{' '}
-            </li>{' '}
-            <li>
-              <a
-                href="https://www.facebook.com/aidilsfwn"
-                className="icon fa-facebook"
-              >
-                <span className="label"> Facebook </span>{' '}
-              </a>{' '}
-            </li>{' '}
-            <li>
-              <a
-                href="https://www.instagram.com/aidilsfwnn"
-                className="icon fa-instagram"
-              >
-                <span className="label"> Instagram </span>{' '}
-              </a>{' '}
-            </li>{' '}
-            <li>
-              <a
-                href="https://www.linkedin.com/in/aidilsafwan"
-                className="icon fa-linkedin"
-              >
-                <span className="label"> LinkedIn </span>{' '}
-              </a>{' '}
-            </li>{' '}
-          </ul>{' '} */}
           {close}{' '}
         </article>{' '}
       </div>
