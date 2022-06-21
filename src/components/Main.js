@@ -280,7 +280,7 @@ class Main extends React.Component {
           <h3> Programming Language </h3>{' '}
           <ul>
             <li>
-              <h4> C, C++, C# </h4>{' '}
+              <h4> C, C++, C#, Obj-C </h4>{' '}
             </li>{' '}
             <li>
               <h4> Java, JavaScript </h4>{' '}
@@ -289,7 +289,7 @@ class Main extends React.Component {
               <h4> Python </h4>{' '}
             </li>{' '}
             <li>
-              <h4> HTML, CSS </h4>{' '}
+              <h4> Swift </h4>{' '}
             </li>{' '}
           </ul>{' '}
           <h3> Development Framework </h3>{' '}
@@ -304,7 +304,7 @@ class Main extends React.Component {
               <h4> NodeJS, ExpressJS </h4>{' '}
             </li>{' '}
           </ul>{' '}
-          <h3> Data Analytics </h3>{' '}
+          <h3> Data Science & Analytics </h3>{' '}
           <ul>
             <li>
               <h4> Natural Language Processing (Sentiment Analysis) </h4>{' '}
@@ -316,15 +316,15 @@ class Main extends React.Component {
                 Matplotlib){' '}
               </h4>{' '}
             </li>{' '}
-            <li>
-              <h4> Machine Learning </h4>{' '}
-            </li>{' '}
           </ul>{' '}
           <span className="image main">
             <img src={photographyPic} alt="" />
           </span>{' '}
           <h3> Creative </h3>{' '}
           <ul>
+            <li>
+              <h4> UI/UX Design (Figma) </h4>{' '}
+            </li>{' '}
             <li>
               <h4> Photo Editing (Adobe Photoshop, Adobe Illusrator) </h4>{' '}
             </li>{' '}

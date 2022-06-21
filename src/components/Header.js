@@ -17,7 +17,7 @@ const Header = props => (
         <ul className="icons" style={{ marginTop: '5vh' }}>
           <li>
             <a
-              href="https://www.twitter.com/jhendilson"
+              href="https://www.twitter.com/totoserigala"
               className="icon fa-twitter"
             >
               <span className="label">Twitter</span>
@@ -33,7 +33,7 @@ const Header = props => (
           </li>
           <li>
             <a
-              href="https://www.instagram.com/jhendilson"
+              href="https://www.instagram.com/totoserigala"
               className="icon fa-instagram"
             >
               <span className="label">Instagram</span>
